@@ -1,0 +1,26 @@
+{
+  "name": "propolis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Propolis",
+  "author": "Lucas",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.7.1",
+    "@react-icons/all-files": "^4.1.0",
+    "gatsby": "^4.7.2",
+    "gatsby-plugin-emotion": "^7.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-player": "^2.9.0"
+  }
+}
