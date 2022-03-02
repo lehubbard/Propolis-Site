@@ -136,7 +136,7 @@ p{
 .nav-list li{
     font-family: 'Courier Prime', monospace;;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 2.5em;
     color: var(--grey);
     padding: 0.2em 0.2em 0.1em 0.2em;
     /* padding: 0.1em; */
@@ -161,15 +161,18 @@ p{
 .page-wrapper{
     overflow: hidden;
     position: absolute;
-    min-height: 100vh; width: 100vw;
+    width: 100%; min-height: 100vh;
     background-image: url('images/bg.jpg');
     background-size: cover;
     background-position: 20% 30%;
 }
 
-#test{
-    font-size: 5em;
-    color: black;
+.set-page-wrapper-height{
+    height: 100vh;
+}
+
+.home-content-area{
+    min-height: 70vh;
 }
 
 /* videos page */
@@ -182,7 +185,7 @@ p{
 }
 
 .video-player{
-    padding: 4em;
+    padding: 4em 4em 10em 4em;
     width: 50em; height: 28em;
 }
 
@@ -191,6 +194,33 @@ p{
     color: var(--dark-grey);
     font-size: 3em;
     font-weight: 400;
+}
+
+/* Footer */
+
+.footer{
+    background-color: var(--dark-grey);
+}
+
+.home-footer{
+    background-color: transparent;
+}
+
+.social-icons-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon{
+    transform: scale(200%);
+    margin: 2em;
+    color: white;
+    cursor: pointer;
+}
+
+.social-icon:hover{
+    color: rgb(196, 196, 196);
 }
 
 /*---------------------------------

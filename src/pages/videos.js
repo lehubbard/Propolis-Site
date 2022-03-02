@@ -9,7 +9,7 @@ function videos() {
                 <h1>Videos</h1>
                 <section className='video-wrapper'>
                     <div className='video-player'>
-                        <h2>title</h2>
+                        <h2>Propolis Live in Kalamazoo</h2>
                         <ReactPlayer 
                             light={true}
                             playing={true}
@@ -19,7 +19,7 @@ function videos() {
                     </div>
 
                     <div className='video-player'>
-                        <h2>title</h2>
+                        <h2>Blood on the Cement Floor Live in the Irish Hills</h2>
                         <ReactPlayer 
                             light={true}
                             playing={true}
@@ -29,7 +29,7 @@ function videos() {
                     </div>
 
                     <div className='video-player'>
-                        <h2>title</h2>
+                        <h2>Propolis - Corrugated Pipe</h2>
                         <ReactPlayer 
                             light={true}
                             playing={true}

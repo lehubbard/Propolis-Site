@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navigation from './navigation';
+import Footer from './footer';
 import { useStaticQuery, graphql } from 'gatsby';
 import { css } from "@emotion/react"
 import { GiHamburgerMenu } from "@react-icons/all-files/gi/GiHamburgerMenu";
@@ -31,7 +32,7 @@ function Layout({ pageTitle, children }) {
         `)
 
     return (
-        <main className='page-wrapper' css={pageTitle !== 'Home'
+        <main className={navVisible ? 'page-wrapper set-page-wrapper-height' : 'page-wrapper'} css={pageTitle !== 'Home'
         ? css`background-image: url('');`
         : null
         }>
@@ -53,6 +54,7 @@ function Layout({ pageTitle, children }) {
             </div>
 
             {children}
+            <Footer homePage={pageTitle == 'Home' ? true : false}/>
         </main>
      );
 }
